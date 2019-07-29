@@ -7,7 +7,8 @@ class View
 
   def display(recipes) # recipes are an array of recipe instances
     recipes.each_with_index do |recipe, index|
-      puts "#{index + 1}- #{recipe.name} #{recipe.description}" #loop through them to extract name and description and display
+      x = recipe.done? ? "x" : ""
+      puts "#{index + 1}- [#{x}] #{recipe.name} #{recipe.description} " #loop through them to extract name and description and display
     end
   end
 

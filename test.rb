@@ -6,11 +6,11 @@ require_relative "cookbook"
 
 recipe1 = Recipe.new("Feijoada", "beans meat and rice")
 recipe2 = Recipe.new("Bitoque", "steak eggs and chips")
-p recipe1
+# p recipe1
 
 cookbook = Cookbook.new("recipes.csv")
 
-cookbook.add(recipe1)
-cookbook.add(recipe2)
+# cookbook.add(recipe1)
+# cookbook.add(recipe2)
 
-p cookbook
+# p cookbook
